@@ -15,7 +15,7 @@ header {
   position: sticky;
   top: 0;
   left: 0;
-
+ z-index: 9999999;
   background-color: var(--bg-color);
 }
 .main-header {
@@ -266,4 +266,111 @@ header {
 }
 .grid-7 > i {
   right: 3%;
+}
+ /*new-arrival-section */
+  .main-new-arrival{
+width: 100%;
+height: auto;
+/* background-color: #888; */
+padding: 8px;
+}
+.sub-new-arrival{
+/* background-color: white; */
+margin: 0 auto;
+width: 90%;
+}
+.for-heading>h2{
+text-align: center;
+font-size: 2rem;
+color: #888;
+font-family: 'jost'sans-serif;
+font-weight: 600;
+padding: 8px 5px
+}
+.for-products{
+display: grid;
+grid-template-columns: repeat(4,250px);
+gap: 50px;
+}
+.product{
+width: 286px;
+height: auto;
+padding: 10px 5px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.product>.for-image>img{
+width: 276px;
+height: 286px;
+object-fit: cover;
+}
+.for-description{
+display: flex;
+justify-content: space-between;
+}
+.for-description>p{
+font-size: 0.9rem;
+font-weight: 600;
+color: #2e2e2e99;
+}
+.for-description>i{
+color: #888;
+width: 25px;
+padding: 5px;
+text-align: center;
+height: 25px;
+background-color: #88888823;
+border-radius: 50%;
+}
+
+.for-price-and-addcart>p{
+font-size: 1.2rem;
+color: #171615;
+font-weight: 600;
+}
+.for-price-and-addcart>button{
+background-color: #f0f0f0f0;
+width: fit-content;
+margin-top: 5%;
+color: #888;
+border: 1px solid #888;
+outline: none;
+padding: 1em 1em;
+transition: all 0.3s ease;
+}
+.for-price-and-addcart>button:hover{
+background-color: #fff;
+}
+.for-button{
+display: flex;
+align-items: center;
+justify-content: center;
+margin:5% 0;
+}
+.for-button>button{
+background-color: #02010100;
+width: fit-content;
+border: 1px solid #8888;
+transition: all 0.3s ease;
+padding: 1.1em 2.2em;
+font-weight: bold;
+color: #888888;
+text-transform: uppercase;
+text-shadow: 0px 0px 10px rgba(0, 0, 0, 0)
+}
+.for-button>button:hover{
+background-color: #c2b6b646;
+}
+.contact{
+position: relative;
+}
+.contact>span{
+position: absolute;
+top: 0%;
+right: 4%;
+color: #888;
+padding: 5px 8px;
+background: #f4ded6;
 }
