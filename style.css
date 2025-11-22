@@ -84,7 +84,6 @@ header {
 .for-search {
   position: relative;
   margin-left: 30%;
-  background-color: #171615;
 }
 .for-search > input {
   font-size: 0.975rem;
