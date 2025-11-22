@@ -83,7 +83,8 @@ header {
 }
 .for-search {
   position: relative;
-  margin-right: 1%;
+  margin-left: 30%;
+  background-color: #171615;
 }
 .for-search > input {
   font-size: 0.975rem;
@@ -117,7 +118,7 @@ header {
   margin: 0 5px;
 }
 .icons {
-  margin-left: 15px;
+margin-left: 5%;
   display: flex;
   position: relative;
   gap: 20px;
@@ -375,68 +376,68 @@ padding: 5px 8px;
 background: #f4ded6;
 }
 .footer-container{
-width: 100%;
-height: 50vh;
-padding: 8px;
-background-color: #121416;
-}
-.sub-footer-container{
-width: 90%;
-margin: 0 auto;
-}
-.footer-grid{
-display: grid;
-height: 45vh;
-grid-template-columns: 3fr 1fr 1fr 3fr;
-color: white;
-column-gap: 5%;
-align-items: center;
-}
-
-.for-icons{
-display: flex;
-gap: 30px;
-transition: all 0.3s ease;
-}
-.for-icons>.fa:hover{
-color: deeppink;
-}
-.for-copyright{
-margin-top: 10%;
-}
-.for-copyright>p{
-color: #babab9;
-font-size: 13px;
-}
-
-.footer-grid-1>h3,.footer-grid-3>h3{
-font-size: 1rem;
-text-transform: uppercase;
-color: #fff;
-margin-bottom: 35px;
-}
-.footer-grid-1>ul>li,.footer-grid-3>ul>li{
-margin: 3px 0;
-color: #BABAB9;
-font-size: 0.9rem;
-line-height: 30px;
-transition: all 0.3s ease;
-}
-.footer-grid-1>ul>li:hover,.footer-grid-3>ul>li:hover{
-color: deeppink;
-}
-.footer-grid-3{
-justify-self:end;
-}
-.footer-grid-3>i:hover{
-color: deeppink;
-}
-.footer-grid-3>span{
-font-size: 0.9rem;
-line-height: 30px;
-color: #BABAB9;
-padding: 3px 0;
-}
-.visible{
-visibility: hidden;
-}
+  width: 100%;
+  height: 50vh;
+  padding: 8px;
+  background-color: #121416;
+  }
+  .sub-footer-container{
+  width: 90%;
+  margin: 0 auto;
+  }
+  .footer-grid{
+  display: grid;
+  height: 45vh;
+  grid-template-columns: 3fr 1fr 1fr 3fr;
+  color: white;
+  column-gap: 5%;
+  align-items: center;
+  }
+  
+  .for-icons{
+  display: flex;
+  gap: 30px;
+  transition: all 0.3s ease;
+  }
+  .for-icons>.fa:hover{
+  color: deeppink;
+  }
+  .for-copyright{
+  margin-top: 10%;
+  }
+  .for-copyright>p{
+  color: #babab9;
+  font-size: 13px;
+  }
+  
+  .footer-grid-1>h3,.footer-grid-3>h3{
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 35px;
+  }
+  .footer-grid-1>ul>li,.footer-grid-3>ul>li{
+  margin: 3px 0;
+  color: #BABAB9;
+  font-size: 0.9rem;
+  line-height: 30px;
+  transition: all 0.3s ease;
+  }
+  .footer-grid-1>ul>li:hover,.footer-grid-3>ul>li:hover{
+  color: deeppink;
+  }
+  .footer-grid-3{
+  justify-self:end;
+  }
+  .footer-grid-3>i:hover{
+  color: deeppink;
+  }
+  .footer-grid-3>span{
+  font-size: 0.9rem;
+  line-height: 30px;
+  color: #BABAB9;
+  padding: 3px 0;
+  }
+  .visible{
+  visibility: hidden;
+  }
